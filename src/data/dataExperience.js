@@ -1,7 +1,7 @@
 export const experience = [
   {
     id:1,
-    rol:'desarrolladora Full Stack (node.js -react.js)',
+    rol:'Desarrolladora Full Stack (node.js -react.js)',
     company:'Incubadora Desafio Latam',
     date:'Actualidad - Octubre 2022',
     desc:'Desarrollar plataforma DevSafío, utilizando tecnologías Node.js, Express, PostgreSQL, React.js y Tailwind.css, Firebase metodologías Scrum  y control de versiones con   GitHub y despliegue con Docker. '

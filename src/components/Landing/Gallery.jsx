@@ -7,7 +7,7 @@ const Gallery = () => {
   const isInView = useInView(ref, { once: true });
   return (
     <>
-      <div className="container flex items-center" ref={ref}>
+      <div className="container flex items-center mt-20 pt-20" ref={ref}>
         <div className=" col-span-1 placeholder:md:col-span-2 ml-20 mt-10">
           <div className="hidden md:block relative h-96 w-96 mr-0">
             <div className="h-56 w-56 text-amber-400 absolute -z-10 left-20 top-10" id="gallery" >

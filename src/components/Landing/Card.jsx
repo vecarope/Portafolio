@@ -8,7 +8,7 @@ const Card = () => {
   return (
     <>
       <div  className="h-screen" ref={ref}>
-        <div className="grid grid-cols-4 md:grid-cols-8 my-1 ml-10">
+        <div className="grid grid-cols-4 md:grid-cols-8 mt-1 mb-5 ml-10">
           <div className=" md:col-span-1 placeholder:md:col-span-2">
             <div className="hidden md:block relative h-96 w-96 mr-0">
               <div className="h-56 w-56 text-amber-400 absolute -z-10 ml-10 left-20 top-20" id="proyect">
@@ -61,7 +61,7 @@ const Card = () => {
             </div>
           </div>
         </div>
-        <div className="container flex justify-center flex-col md:flex-row mx-1 md:mx-16">
+        <div className="container flex justify-center flex-col md:flex-row mx-1 md:mx-20 mb-5">
           {proyect.map((element) => (
             <div  key={element.id} className="md:px-2 scale-75 w-auto gap-2 transform hover:scale-90 transition duration-700 ease-out">
               <div className="absolute -right-2 -bottom-3 bg-[#FBCA1B] h-full w-full "></div>
@@ -85,9 +85,10 @@ const Card = () => {
                   </div>
                 </div>
                 <p className="text-2xl font-bold text-white">{element.name}</p>
-                <p className="leading-snug text-gray-200 text-xl">
+                <p className="leading-snug text-gray-200 text-xl text-justify">
                   {element.desc}
                 </p>
+                <p className="font-bold text-xl"> <span>Tecnologias: </span>{element.type} / {element.librery} / {element.css}</p>
                 <a
                   href={element.repo}
                   className="block text-[#fcd571] font-bold text-xl"

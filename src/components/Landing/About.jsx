@@ -12,19 +12,9 @@ const About = () => {
                 Soy Verónica...
               </p>
               <p className="md:text-lg mt-4 text-justify">
-                Licenciada en artes visuales y gestora cultural, desarrolladora
-                Front-End y Python en constante aprendizaje desde el 2021.
-                Responsable y resolutiva al enfrentar nuevos desafíos, adaptable
-                al cambio, me interesa ser parte de equipos multidisciplinarios.
-                Mi gran motivación es trabaja para la gente, aportando e
-                implementando soluciones a sus problemáticas. Conocimientos en
-                Javascripts, Vue.JS, React.JS, Angular, Python, SQL y Django.
-                Soy constante y creativa, aportando ideas e implementando
-                acciones innovadoras y desafiantes. Curiosa de las culturas,
-                tecnologías, diseño, arte y fotografía. Soy constante y
-                creativa, aportando ideas e implementando acciones innovadoras y
-                desafiantes. Curiosa de las culturas, tecnologías, diseño, arte
-                y fotografía.
+              Soy Licenciada en Artes Visuales y Gestora Cultural, y desde el 2021 me he desempeñado como desarrolladora #Front-End y #Python, manteniéndome en constante aprendizaje. Soy responsable y resolutiva al enfrentar nuevos desafíos, y me adapto fácilmente a los cambios. Me interesa formar parte de equipos multidisciplinarios y mi mayor motivación es trabajar para la gente, aportando soluciones innovadoras a sus problemáticas.
+
+<br/>Tengo experiencia en el uso de #Javascript, #Vue.JS, #React.JS, #Python, #SQL y #Django. Mi creatividad y constancia me llevan a aportar ideas y a implementar soluciones desafiantes e innovadoras. Soy curiosa y apasionada por la cultura, las tecnologías, el diseño, el arte y la fotografía, lo que me lleva a estar siempre actualizada y a ofrecer una perspectiva diferente en mi trabajo.
               </p>
 
               <div className="absolute top-0 left-0 flex h-full w-full items-center justify-center rounded-md bg-purple-500 px-10 opacity-0 transition group-hover:opacity-100">

@@ -46,7 +46,7 @@ const Skills = () => {
         opacity: isInView ? 1 : 0,
         transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
       }}>
-              <h2 className="text-3xl text-[#414be3] sm:text-4xl xl:text-5xl">
+              <h2 className="text-3xl text-[#5f41f8] sm:text-4xl xl:text-5xl">
                 Mis <span className="font-bold">Skills</span>
               </h2></div>
             </div>
